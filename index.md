@@ -38,11 +38,12 @@ layout: default
 
 ### data-structure
 
-* :warning: <a href="library/data-structure/UnionFind.cpp.html">data-structure/UnionFind.cpp</a>
+* :heavy_check_mark: <a href="library/data-structure/UnionFind.cpp.html">data-structure/UnionFind.cpp</a>
 
 
 ## Verify Files
 
 * :heavy_check_mark: <a href="verify/example.test.cpp.html">example.test.cpp</a>
+* :heavy_check_mark: <a href="verify/test/yosupo/unionfind.test.cpp.html">test/yosupo/unionfind.test.cpp</a>
 
 
