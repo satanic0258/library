@@ -29,6 +29,7 @@ layout: default
 
 <a href="../../../index.html">Back to top page</a>
 
+* category: <a href="../../../index.html#0b58406058f6619a0f31a172defc0230">test/yosupo</a>
 * <a href="{{ site.github.repository_url }}/blob/master/test/yosupo/unionfind.test.cpp">View this file on GitHub</a>
     - Last commit date: 2020-01-06 22:20:04+09:00
 
@@ -79,7 +80,7 @@ signed main(){
 
 #include <bits/stdc++.h>
 
-#line 1 "test/yosupo/../../data-structure/UnionFind.cpp"
+#line 1 "data-structure/UnionFind.cpp"
 class UnionFind {
 private:
 	std::vector<int> par;
@@ -112,7 +113,8 @@ public:
 	int size(int x) {
 		return siz[find(x)];
 	}
-};#line 6 "test/yosupo/unionfind.test.cpp"
+};
+#line 6 "test/yosupo/unionfind.test.cpp"
 
 #define REP(a,b) for(int a=0;a<(int)(b);++a)
 
@@ -130,6 +132,7 @@ signed main(){
 
   return 0;
 }
+
 ```
 {% endraw %}
 
