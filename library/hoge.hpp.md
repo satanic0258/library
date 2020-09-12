@@ -31,7 +31,7 @@ layout: default
 
 * category: <a href="../index.html#5058f1af8388633f609cadb75a75dc9d">.</a>
 * <a href="{{ site.github.repository_url }}/blob/master/hoge.hpp">View this file on GitHub</a>
-    - Last commit date: 2020-09-13 00:45:46+09:00
+    - Last commit date: 2020-09-13 01:02:22+09:00
 
 
 
@@ -48,7 +48,7 @@ hogeを出力する．
 // @shortcut hoge
 // @description ほげする
 // @docs hoge.md
-std::cout << "hoge" << std::endl;
+std::cout << "hogehoge" << std::endl;
 ```
 {% endraw %}
 
@@ -60,7 +60,7 @@ std::cout << "hoge" << std::endl;
 // @shortcut hoge
 // @description ほげする
 // @docs hoge.md
-std::cout << "hoge" << std::endl;
+std::cout << "hogehoge" << std::endl;
 
 ```
 {% endraw %}
