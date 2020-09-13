@@ -41,6 +41,13 @@ layout: default
 * :heavy_check_mark: <a href="library/data-structure/UnionFind.cpp.html">data-structure/UnionFind.cpp</a>
 
 
+<div id="7e676e9e663beb40fd133f5ee24487c2"></div>
+
+### math
+
+* :warning: <a href="library/math/heron.hpp.html">ヘロンの公式 <small>(math/heron.hpp)</small></a>
+
+
 ## Verify Files
 
 * :heavy_check_mark: <a href="verify/example.test.cpp.html">example.test.cpp</a>
