@@ -45,7 +45,7 @@ layout: default
 
 ### math
 
-* :warning: <a href="library/math/heron.cpp.html">ヘロンの公式 <small>(math/heron.cpp)</small></a>
+* :warning: <a href="library/math/heron.hpp.html">ヘロンの公式 <small>(math/heron.hpp)</small></a>
 
 
 ## Verify Files
