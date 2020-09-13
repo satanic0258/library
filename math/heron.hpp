@@ -1,4 +1,4 @@
-﻿// @brief ヘロンの公式
+// @brief ヘロンの公式
 // @shortcut heron
 // @description ヘロンの公式を用いて三角形の面積を計算する．O(1)．
 // @docs heron.md
