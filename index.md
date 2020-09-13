@@ -45,12 +45,13 @@ layout: default
 
 ### math
 
-* :warning: <a href="library/math/heron.hpp.html">ヘロンの公式 <small>(math/heron.hpp)</small></a>
+* :x: <a href="library/math/heron.hpp.html">ヘロンの公式 <small>(math/heron.hpp)</small></a>
 
 
 ## Verify Files
 
 * :heavy_check_mark: <a href="verify/example.test.cpp.html">example.test.cpp</a>
+* :x: <a href="verify/test/aoj/0079.test.cpp.html">test/aoj/0079.test.cpp</a>
 * :heavy_check_mark: <a href="verify/test/yosupo/unionfind.test.cpp.html">test/yosupo/unionfind.test.cpp</a>
 
 

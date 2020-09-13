@@ -25,7 +25,7 @@ layout: default
 <link rel="stylesheet" href="../../assets/css/copy-button.css" />
 
 
-# :warning: ヘロンの公式 <small>(math/heron.hpp)</small>
+# :x: ヘロンの公式 <small>(math/heron.hpp)</small>
 
 <a href="../../index.html">Back to top page</a>
 
@@ -42,6 +42,11 @@ layout: default
 $s=\frac{a+b+c}{2}$ とおくと，面積 $S$ は\\
 $S = \sqrt{s(s-a)(s-b)(s-c)}$
 である．
+
+## Verified with
+
+* :x: <a href="../../verify/test/aoj/0079.test.cpp.html">test/aoj/0079.test.cpp</a>
+
 
 ## Code
 
