@@ -25,13 +25,13 @@ layout: default
 <link rel="stylesheet" href="../../assets/css/copy-button.css" />
 
 
-# :warning: ヘロンの公式 <small>(math/heron.hpp)</small>
+# :warning: ヘロンの公式 <small>(math/heron.cpp)</small>
 
 <a href="../../index.html">Back to top page</a>
 
 * category: <a href="../../index.html#7e676e9e663beb40fd133f5ee24487c2">math</a>
-* <a href="{{ site.github.repository_url }}/blob/master/math/heron.hpp">View this file on GitHub</a>
-    - Last commit date: 2020-09-13 20:49:59+09:00
+* <a href="{{ site.github.repository_url }}/blob/master/math/heron.cpp">View this file on GitHub</a>
+    - Last commit date: 2020-09-13 20:51:18+09:00
 
 
 
@@ -62,7 +62,7 @@ double Heron(double a, double b, double c) {
 <a id="bundled"></a>
 {% raw %}
 ```cpp
-#line 1 "math/heron.hpp"
+#line 1 "math/heron.cpp"
 ﻿// @brief ヘロンの公式
 // @shortcut heron
 // @description ヘロンの公式を用いて三角形の面積を計算する．O(1)．
