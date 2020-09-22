@@ -1,7 +1,7 @@
 // @brief UnionFind
 // @shortcut UnionFind
 // @description 素集合データ構造． union by size+path halvingの実装．O(α(N)).
-// @docs UnionFind.md
+// @docs ./UnionFind.md
 class UnionFind {
 private:
 	std::vector<int> par;
