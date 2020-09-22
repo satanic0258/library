@@ -17,7 +17,7 @@ data:
     \n#include <bits/stdc++.h>\n#line 1 \"data-structure/UnionFind.hpp\"\n// @brief\
     \ UnionFind\n// @shortcut UnionFind\n// @description \u7D20\u96C6\u5408\u30C7\u30FC\
     \u30BF\u69CB\u9020\uFF0E union by size+path halving\u306E\u5B9F\u88C5\uFF0EO(\u03B1\
-    (N)).\n// @docs UnionFind.md\nclass UnionFind {\nprivate:\n\tstd::vector<int>\
+    (N)).\n// @docs ./UnionFind.md\nclass UnionFind {\nprivate:\n\tstd::vector<int>\
     \ par;\n\tstd::vector<int> siz;\n\npublic:\n\tUnionFind(int sz_) : par(sz_), siz(sz_,\
     \ 1) {\n\t\tfor (int i = 0; i < sz_; ++i) par[i] = i;\n\t}\n\tvoid init(int sz_)\
     \ {\n\t\tpar.resize(sz_);\n\t\tsiz.resize(sz_, 1);\n\t\tfor (int i = 0; i < sz_;\
@@ -42,7 +42,7 @@ data:
   isVerificationFile: true
   path: test/yosupo/unionfind.test.cpp
   requiredBy: []
-  timestamp: '2020-09-23 00:12:35+09:00'
+  timestamp: '2020-09-23 00:20:29+09:00'
   verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: test/yosupo/unionfind.test.cpp
