@@ -2,9 +2,12 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: test/yosupo/unionfind.test.cpp
+    title: test/yosupo/unionfind.test.cpp
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
     _deprecated_at_docs: UnionFind.md
@@ -40,8 +43,9 @@ data:
   path: data-structure/UnionFind.hpp
   requiredBy: []
   timestamp: '2020-09-23 00:10:20+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - test/yosupo/unionfind.test.cpp
 documentation_of: data-structure/UnionFind.hpp
 layout: document
 redirect_from:

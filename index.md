@@ -3,7 +3,7 @@ data:
   libraryCategories:
   - name: data-structure
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: data-structure/UnionFind.hpp
       title: UnionFind
   - name: math
@@ -19,7 +19,7 @@ data:
       title: example.test.cpp
   - name: test/yosupo
     pages:
-    - icon: ':x:'
+    - icon: ':heavy_check_mark:'
       path: test/yosupo/unionfind.test.cpp
       title: test/yosupo/unionfind.test.cpp
 layout: toppage

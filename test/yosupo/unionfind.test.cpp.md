@@ -1,32 +1,49 @@
 ---
 data:
-  _extendedDependsOn: []
+  _extendedDependsOn:
+  - icon: ':heavy_check_mark:'
+    path: data-structure/UnionFind.hpp
+    title: UnionFind
   _extendedRequiredBy: []
   _extendedVerifiedWith: []
   _pathExtension: cpp
-  _verificationStatusIcon: ':x:'
-  attributes: {}
-  bundledCode: "Traceback (most recent call last):\n  File \"/opt/hostedtoolcache/Python/3.8.5/x64/lib/python3.8/site-packages/onlinejudge_verify/documentation/build.py\"\
-    , line 70, in _render_source_code_stat\n    bundled_code = language.bundle(stat.path,\
-    \ basedir=basedir).decode()\n  File \"/opt/hostedtoolcache/Python/3.8.5/x64/lib/python3.8/site-packages/onlinejudge_verify/languages/cplusplus.py\"\
-    , line 191, in bundle\n    bundler.update(path)\n  File \"/opt/hostedtoolcache/Python/3.8.5/x64/lib/python3.8/site-packages/onlinejudge_verify/languages/cplusplus_bundle.py\"\
-    , line 399, in update\n    self.update(self._resolve(pathlib.Path(included), included_from=path))\n\
-    \  File \"/opt/hostedtoolcache/Python/3.8.5/x64/lib/python3.8/site-packages/onlinejudge_verify/languages/cplusplus_bundle.py\"\
-    , line 258, in _resolve\n    raise BundleErrorAt(path, -1, \"no such header\"\
-    )\nonlinejudge_verify.languages.cplusplus_bundle.BundleErrorAt: ../../data-structure/UnionFind.cpp:\
-    \ line -1: no such header\n"
-  code: "#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\n\n#include\
-    \ <bits/stdc++.h>\n\n#include \"../../data-structure/UnionFind.cpp\"\n\n#define\
-    \ REP(a,b) for(int a=0;a<(int)(b);++a)\n\nsigned main(){\n  int n, q;\n  std::cin\
-    \ >> n >> q;\n\n  UnionFind uf(n);\n  REP(i, q) {\n    int t, u, v;\n    std::cin\
-    \ >> t >> u >> v;\n    /* */if (t == 0) uf.unite(u, v);\n    else if (t == 1)\
-    \ std::cout << uf.same(u, v) << \"\\n\";\n  }\n\n  return 0;\n}"
-  dependsOn: []
+  _verificationStatusIcon: ':heavy_check_mark:'
+  attributes:
+    '*NOT_SPECIAL_COMMENTS*': ''
+    PROBLEM: https://judge.yosupo.jp/problem/unionfind
+    links:
+    - https://judge.yosupo.jp/problem/unionfind
+  bundledCode: "#line 1 \"test/yosupo/unionfind.test.cpp\"\n#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\
+    \n#include <bits/stdc++.h>\n#line 1 \"data-structure/UnionFind.hpp\"\n// @brief\
+    \ UnionFind\n// @shortcut UnionFind\n// @description \u7D20\u96C6\u5408\u30C7\u30FC\
+    \u30BF\u69CB\u9020\uFF0E union by size+path halving\u306E\u5B9F\u88C5\uFF0EO(\u03B1\
+    (N)).\n// @docs UnionFind.md\nclass UnionFind {\nprivate:\n\tstd::vector<int>\
+    \ par;\n\tstd::vector<int> siz;\n\npublic:\n\tUnionFind(int sz_) : par(sz_), siz(sz_,\
+    \ 1) {\n\t\tfor (int i = 0; i < sz_; ++i) par[i] = i;\n\t}\n\tvoid init(int sz_)\
+    \ {\n\t\tpar.resize(sz_);\n\t\tsiz.resize(sz_, 1);\n\t\tfor (int i = 0; i < sz_;\
+    \ ++i) par[i] = i;\n\t}\n\tint find(int x) {\n\t\twhile (par[x] != x) x = par[x]\
+    \ = par[par[x]];\n\t\treturn x;\n\t}\n\tvoid unite(int x, int y) {\n\t\tx = find(x);\n\
+    \t\ty = find(y);\n\t\tif (x == y) return;\n\t\tif (siz[x] < siz[y]) std::swap(x,\
+    \ y);\n\t\tsiz[x] += siz[y];\n\t\tpar[y] = x;\n\t}\n\tbool same(int x, int y)\
+    \ {\n\t\treturn find(x) == find(y);\n\t}\n\tint size(int x) {\n\t\treturn siz[find(x)];\n\
+    \t}\n};\n#line 4 \"test/yosupo/unionfind.test.cpp\"\n\n#define REP(a,b) for(int\
+    \ a=0;a<(int)(b);++a)\n\nsigned main(){\n  int n, q;\n  std::cin >> n >> q;\n\n\
+    \  UnionFind uf(n);\n  REP(i, q) {\n    int t, u, v;\n    std::cin >> t >> u >>\
+    \ v;\n    /* */if (t == 0) uf.unite(u, v);\n    else if (t == 1) std::cout <<\
+    \ uf.same(u, v) << \"\\n\";\n  }\n\n  return 0;\n}\n"
+  code: "#define PROBLEM \"https://judge.yosupo.jp/problem/unionfind\"\n#include <bits/stdc++.h>\n\
+    #include \"../../data-structure/UnionFind.hpp\"\n\n#define REP(a,b) for(int a=0;a<(int)(b);++a)\n\
+    \nsigned main(){\n  int n, q;\n  std::cin >> n >> q;\n\n  UnionFind uf(n);\n \
+    \ REP(i, q) {\n    int t, u, v;\n    std::cin >> t >> u >> v;\n    /* */if (t\
+    \ == 0) uf.unite(u, v);\n    else if (t == 1) std::cout << uf.same(u, v) << \"\
+    \\n\";\n  }\n\n  return 0;\n}"
+  dependsOn:
+  - data-structure/UnionFind.hpp
   isVerificationFile: true
   path: test/yosupo/unionfind.test.cpp
   requiredBy: []
-  timestamp: '1970-01-01 00:00:00+00:00'
-  verificationStatus: TEST_WRONG_ANSWER
+  timestamp: '2020-09-23 00:12:35+09:00'
+  verificationStatus: TEST_ACCEPTED
   verifiedWith: []
 documentation_of: test/yosupo/unionfind.test.cpp
 layout: document
