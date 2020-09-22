@@ -1,8 +1,6 @@
 #define PROBLEM "https://judge.yosupo.jp/problem/unionfind"
-
 #include <bits/stdc++.h>
-
-#include "../../data-structure/UnionFind.cpp"
+#include "../../data-structure/UnionFind.hpp"
 
 #define REP(a,b) for(int a=0;a<(int)(b);++a)
 
