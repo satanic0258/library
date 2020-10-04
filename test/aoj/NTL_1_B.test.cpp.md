@@ -41,18 +41,19 @@ data:
     \ operator<<(std::ostream & os, const ModInt & obj) { return os << obj.val; }\n\
     /* friend */ std::istream& operator>>(std::istream & is, ModInt & obj) {\n is\
     \ >> obj.val;\n obj.setVal(obj.val);\n return is;\n}\n/** ModInt **/\n#line 4\
-    \ \"test/aoj/NTL_1_B.test.cpp\"\n\nint main(){\n ModInt m;\n int n;\n std::cin\
-    \ >> m >> n;\n std::cout << (m ^ n) << std::endl;\n}\n"
+    \ \"test/aoj/NTL_1_B.test.cpp\"\n\nconstexpr int MOD = 1000000007;\n\nint main(){\n\
+    \tModInt m;\n\tint n;\n\tstd::cin >> m >> n;\n\tstd::cout << (m ^ n) << std::endl;\n\
+    }\n"
   code: "#define PROBLEM \"http://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=NTL_1_B\"\
-    \n#include <bits/stdc++.h>\n#include \"../../math/ModInt.hpp\"\n\nint main(){\n\
-    \ ModInt m;\n int n;\n std::cin >> m >> n;\n std::cout << (m ^ n) << std::endl;\n\
-    }"
+    \n#include <bits/stdc++.h>\n#include \"../../math/ModInt.hpp\"\n\nconstexpr int\
+    \ MOD = 1000000007;\n\nint main(){\n\tModInt m;\n\tint n;\n\tstd::cin >> m >>\
+    \ n;\n\tstd::cout << (m ^ n) << std::endl;\n}"
   dependsOn:
   - math/ModInt.hpp
   isVerificationFile: true
   path: test/aoj/NTL_1_B.test.cpp
   requiredBy: []
-  timestamp: '2020-10-05 08:31:30+09:00'
+  timestamp: '2020-10-05 08:34:24+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: test/aoj/NTL_1_B.test.cpp
