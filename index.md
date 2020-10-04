@@ -11,7 +11,7 @@ data:
       title: UnionFind
   - name: math
     pages:
-    - icon: ':warning:'
+    - icon: ':x:'
       path: math/ModInt.hpp
       title: ModInt
     - icon: ':warning:'
@@ -23,6 +23,11 @@ data:
     - icon: ':heavy_check_mark:'
       path: example.test.cpp
       title: example.test.cpp
+  - name: test/aoj
+    pages:
+    - icon: ':x:'
+      path: test/aoj/NTL_1_B.test.cpp
+      title: test/aoj/NTL_1_B.test.cpp
   - name: test/yosupo
     pages:
     - icon: ':heavy_check_mark:'
