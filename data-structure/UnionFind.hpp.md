@@ -9,7 +9,6 @@ data:
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
-    '*NOT_SPECIAL_COMMENTS*': ''
     _deprecated_at_docs: data-structure/UnionFind.md
     document_title: UnionFind
     links: []

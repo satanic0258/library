@@ -9,7 +9,6 @@ data:
   _pathExtension: hpp
   _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
-    '*NOT_SPECIAL_COMMENTS*': ''
     _deprecated_at_docs: data-structure/BIT.md
     document_title: Binary Indexed Tree
     links: []

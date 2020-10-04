@@ -12,6 +12,9 @@ data:
   - name: math
     pages:
     - icon: ':warning:'
+      path: math/ModInt.hpp
+      title: ModInt
+    - icon: ':warning:'
       path: math/heron.hpp
       title: "\u30D8\u30ED\u30F3\u306E\u516C\u5F0F"
   verificationCategories:

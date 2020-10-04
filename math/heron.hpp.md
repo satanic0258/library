@@ -6,7 +6,6 @@ data:
   _pathExtension: hpp
   _verificationStatusIcon: ':warning:'
   attributes:
-    '*NOT_SPECIAL_COMMENTS*': ''
     _deprecated_at_docs: math/heron.md
     document_title: "\u30D8\u30ED\u30F3\u306E\u516C\u5F0F"
     links: []
