@@ -2,9 +2,12 @@
 data:
   _extendedDependsOn: []
   _extendedRequiredBy: []
-  _extendedVerifiedWith: []
+  _extendedVerifiedWith:
+  - icon: ':heavy_check_mark:'
+    path: test/yosupo/SuffixArray.test.cpp
+    title: test/yosupo/SuffixArray.test.cpp
   _pathExtension: hpp
-  _verificationStatusIcon: ':warning:'
+  _verificationStatusIcon: ':heavy_check_mark:'
   attributes:
     _deprecated_at_docs: string/SuffixArray.md
     document_title: SuffixArray
@@ -123,8 +126,9 @@ data:
   path: string/SuffixArray.hpp
   requiredBy: []
   timestamp: '2020-10-05 09:34:48+09:00'
-  verificationStatus: LIBRARY_NO_TESTS
-  verifiedWith: []
+  verificationStatus: LIBRARY_ALL_AC
+  verifiedWith:
+  - test/yosupo/SuffixArray.test.cpp
 documentation_of: string/SuffixArray.hpp
 layout: document
 redirect_from:

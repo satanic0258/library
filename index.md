@@ -19,7 +19,7 @@ data:
       title: "\u30D8\u30ED\u30F3\u306E\u516C\u5F0F"
   - name: string
     pages:
-    - icon: ':warning:'
+    - icon: ':heavy_check_mark:'
       path: string/SuffixArray.hpp
       title: SuffixArray
   verificationCategories:
@@ -38,6 +38,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: test/yosupo/BIT.test.cpp
       title: test/yosupo/BIT.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: test/yosupo/SuffixArray.test.cpp
+      title: test/yosupo/SuffixArray.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/yosupo/unionfind.test.cpp
       title: test/yosupo/unionfind.test.cpp
