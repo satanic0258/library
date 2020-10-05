@@ -17,6 +17,11 @@ data:
     - icon: ':warning:'
       path: math/heron.hpp
       title: "\u30D8\u30ED\u30F3\u306E\u516C\u5F0F"
+  - name: string
+    pages:
+    - icon: ':warning:'
+      path: string/SuffixArray.hpp
+      title: SuffixArray
   verificationCategories:
   - name: .
     pages:
